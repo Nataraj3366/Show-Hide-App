@@ -1,0 +1,44 @@
+.app-container {
+  background-image: linear-gradient(to left, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+}
+
+.buttons-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  color: #dd1264;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 0px none;
+}
+
+.name {
+  margin-top: 30px;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.text {
+  font-size: 25px;
+}
